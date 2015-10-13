@@ -202,3 +202,4 @@ FakesAssemblies/
 FoodCourt/Web.config
 FoodCourt/Web.Debug.config
 FoodCourt/Web.Release.config
+/OneTimePassword/Web.Release.config
