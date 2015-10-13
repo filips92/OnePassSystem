@@ -195,11 +195,4 @@ FakesAssemblies/
 # Visual Studio 6 workspace options file
 *.opt
 
-# DebugController
-!FoodCourt/Views/Debug
-!FoodCourt/Views/Debug/*
-
-FoodCourt/Web.config
-FoodCourt/Web.Debug.config
-FoodCourt/Web.Release.config
-/OneTimePassword/Web.Release.config
+/OneTimePassword/Secrets.config

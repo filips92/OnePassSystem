@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.Entity;
+using System.Diagnostics;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
@@ -41,6 +42,7 @@ namespace OneTimePassword
 
                 wc.Headers[HttpRequestHeader.ContentType] = "application/x-www-form-urlencoded";
                 string HtmlResult = wc.UploadString(URI, myParameters);
+                Debug.WriteLine(HtmlResult);
             }
 #endif
             return Task.FromResult(0);
